@@ -7,7 +7,7 @@ while True:
     ini_t = time.time()
     total = 0
     print(f'Prime no.s in range from {ini_no} to {final_no} are: ')
-    for i in range(ini_no, final_no+1):
+    for i in range(ini_no, final_no + 1):
         if isprime(i) and i != 1:
             print(i)
             total += 1
