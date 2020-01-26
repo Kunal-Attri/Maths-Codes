@@ -1,6 +1,5 @@
 from Basic_Functions import *
 import time
-
 while True:
     ini_no = get_integer('Initial no: ')
     final_no = get_integer('Final no: ')
