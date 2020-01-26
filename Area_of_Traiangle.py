@@ -1,4 +1,3 @@
-
 print('''
 This code is used to calculate the area of a triangle given it's sides.
 You have to enter the sides of the triangle in any unit! Make sure all the sides are in same units.
@@ -17,11 +16,10 @@ while True:
     except ValueError:
         print('Invalid Input')
     else:
-        if a+b <= c or a+c <= b or b+c <= a:
+        if a + b <= c or a + c <= b or b + c <= a:
             print('Triangle with these given sides is not possible. Try making one yourself!')
         else:
-            s = (a+b+c)/2
-            area = (s*(s-a)*(s-b)*(s-c))**0.5
+            s = (a + b + c) / 2
+            area = (s * (s - a) * (s - b) * (s - c)) ** 0.5
             print(f'Area =  {area} square units')
         print()
-
