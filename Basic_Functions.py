@@ -1,3 +1,6 @@
+import math
+
+
 basic_prime = [3, 5, 7, 11, 13, 15, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
 
 
@@ -53,3 +56,7 @@ def isprime(num):
                     prime = False
                     break
     return prime
+
+
+def factorial(num):
+    return math.factorial(num)
