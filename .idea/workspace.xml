@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1551ab9c-163b-47f2-89ec-fc9b881d64a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Distances_On_Earth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Factorial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Factorial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Permutations&amp;Combinations.py" beforeDir="false" afterPath="$PROJECT_DIR$/Permutations&amp;Combinations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Basic_Functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Distances_On_Earth.py" beforeDir="false" afterPath="$PROJECT_DIR$/Distances_On_Earth.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +87,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580720614176</updated>
       <workItem from="1580720617049" duration="175000" />
-      <workItem from="1583352038568" duration="1716000" />
+      <workItem from="1583352038568" duration="2022000" />
     </task>
     <task id="LOCAL-00001" summary="permutations code added">
       <created>1583352891262</created>
@@ -112,7 +110,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583353307600</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="distances on earth code added">
+      <created>1583353786793</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583353786793</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,13 +126,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="permutations code added" />
     <MESSAGE value="combinations code merged with permutations" />
-    <option name="LAST_COMMIT_MESSAGE" value="combinations code merged with permutations" />
+    <MESSAGE value="distances on earth code added" />
+    <option name="LAST_COMMIT_MESSAGE" value="distances on earth code added" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1583353306006">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1583353785369">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583353306006" />
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583353785369" />
     <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1580720666326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

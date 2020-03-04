@@ -15,8 +15,15 @@ def get_integer(message="Number: "):
         return i
 
 
-def empty_line():
-    print(' ')
+def get_float(message="Number: "):
+    try:
+        f = float(input(message))
+    except ValueError:
+        print('Invalid Input')
+        return get_integer(message)
+    else:
+        # empty_line()
+        return f
 
 
 def into_integer(x, msg='Cannot be converted into a integer'):
