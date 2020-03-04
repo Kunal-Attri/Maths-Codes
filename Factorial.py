@@ -1,5 +1,5 @@
-import math
-import time
+from math import factorial
+from time import time
 
 while True:
     try:
@@ -14,9 +14,9 @@ while True:
         # print(f'Factorial: {fact}')
         # f_t = time.time()
         # print(f'Time taken: {f_t-ini_t} s')
-        ini_t = time.time()
-        fact = math.factorial(fact_num)
+        ini_t = time()
+        fact = factorial(fact_num)
         print(f'Factorial: {fact}')
-        f_t = time.time()
+        f_t = time()
         print(f'Time taken: {f_t - ini_t} s')
     print()

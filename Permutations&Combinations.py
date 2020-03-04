@@ -1,4 +1,4 @@
-from Basic_Functions import *
+from Basic_Functions import factorial, get_integer
 
 print('''
 This code calculates no of possible permutations and combinations. Kindly provide data as n and r
