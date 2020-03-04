@@ -1,9 +1,9 @@
-import time
+from time import time_ns
 
-from Basic_Functions import *
+from Basic_Functions import get_integer
 
 terms = get_integer('No of terms: ')
-ini = time.time_ns()
+ini = time_ns()
 a = 0
 b = 1
 
@@ -15,5 +15,5 @@ while term < terms:
     a = c
     print(b)
     term += 1
-fin = time.time_ns()
+fin = time_ns()
 print(f'Time taken = {(fin - ini) / 1000000000} seconds')

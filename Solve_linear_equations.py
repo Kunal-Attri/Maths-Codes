@@ -1,6 +1,3 @@
-from Basic_Functions import *
-
-
 def lnr_cnsts(a):
     consts = []
     x1 = -1
@@ -79,4 +76,4 @@ while True:
         x = ((b2 * c1) - (b1 * c2)) / ((a2 * b1) - (a1 * b2))
         print(f'''Solutions:-  
 x = {x}  y = {y}''')
-    empty_line()
+    print('')

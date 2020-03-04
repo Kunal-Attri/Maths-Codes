@@ -1,4 +1,4 @@
-from Basic_Functions import *
+from Basic_Functions import isodd
 
 while True:
     try:
