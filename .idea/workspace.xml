@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1551ab9c-163b-47f2-89ec-fc9b881d64a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Check_For_Prime.py" beforeDir="false" afterPath="$PROJECT_DIR$/Check_For_Prime.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fibonacci_Sequence_Generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fibonacci_Sequence_Generator.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Find_the_factors_of_a_no.py" beforeDir="false" afterPath="$PROJECT_DIR$/Find_the_factors_of_a_no.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Get_all_prime_nos_bw_two_nos.py" beforeDir="false" afterPath="$PROJECT_DIR$/Get_all_prime_nos_bw_two_nos.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Solve_linear_equations.py" beforeDir="false" afterPath="$PROJECT_DIR$/Solve_linear_equations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +155,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580720614176</updated>
       <workItem from="1580720617049" duration="175000" />
-      <workItem from="1583352038568" duration="4075000" />
+      <workItem from="1583352038568" duration="4228000" />
     </task>
     <task id="LOCAL-00001" summary="permutations code added">
       <created>1583352891262</created>
@@ -203,7 +199,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583355253642</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="codes optimized">
+      <created>1583356148924</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583356148924</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,41 +218,42 @@
     <MESSAGE value="distances on earth code added" />
     <MESSAGE value="distances on earth code formatted" />
     <MESSAGE value="area of regular polygon added" />
-    <option name="LAST_COMMIT_MESSAGE" value="area of regular polygon added" />
+    <MESSAGE value="codes optimized" />
+    <option name="LAST_COMMIT_MESSAGE" value="codes optimized" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1583355252000">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1583356147035">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583355252000" />
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583356147035" />
     <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1580720666326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580720666326" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583355534149">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583356276833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583355534149" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1583355534149">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583356276833" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1583356276833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583355534149" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1583355534149">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583356276833" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1583356276833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583355534149" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1583355534149">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583356276833" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1583356276833">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583355534149" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583356276833" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1580720776595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580720776595" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1583355261830">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1583356153556">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583355261830" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583356153556" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583354441682">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
