@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1551ab9c-163b-47f2-89ec-fc9b881d64a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Area_of_Regular_Polygon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Basic_Functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Basic_Functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Distances_On_Earth.py" beforeDir="false" afterPath="$PROJECT_DIR$/Distances_On_Earth.py" afterDir="false" />
     </list>
@@ -35,7 +37,51 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Area_of_Regular_Polygon">
+    <configuration name="Area_of_Regular_Polygon" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Maths_Codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Area_of_Regular_Polygon.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Distances_On_Earth" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Maths_Codes" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Distances_On_Earth.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Permutations&amp;Combinations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Maths_Codes" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -60,6 +106,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Area_of_Regular_Polygon" />
+        <item itemvalue="Python.Distances_On_Earth" />
         <item itemvalue="Python.Permutations&amp;Combinations" />
       </list>
     </recent_temporary>
@@ -87,7 +135,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580720614176</updated>
       <workItem from="1580720617049" duration="175000" />
-      <workItem from="1583352038568" duration="2022000" />
+      <workItem from="1583352038568" duration="3186000" />
     </task>
     <task id="LOCAL-00001" summary="permutations code added">
       <created>1583352891262</created>
@@ -117,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583353786793</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="distances on earth code formatted">
+      <created>1583354135197</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583354135197</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,43 +182,50 @@
     <MESSAGE value="permutations code added" />
     <MESSAGE value="combinations code merged with permutations" />
     <MESSAGE value="distances on earth code added" />
-    <option name="LAST_COMMIT_MESSAGE" value="distances on earth code added" />
+    <MESSAGE value="distances on earth code formatted" />
+    <option name="LAST_COMMIT_MESSAGE" value="distances on earth code formatted" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1583353785369">
+    <state x="585" y="115" key="CommitChangelistDialog2" timestamp="1583354133285">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583353785369" />
+    <state x="585" y="115" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583354133285" />
     <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1580720666326">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1580720666326" />
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583353259730">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1583355115708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583353259730" />
-    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1583353259730">
+    <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583355115708" />
+    <state width="1877" height="282" key="GridCell.Tab.0.center" timestamp="1583355115708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583353259730" />
-    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1583353259730">
+    <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583355115708" />
+    <state width="1877" height="282" key="GridCell.Tab.0.left" timestamp="1583355115708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583353259730" />
-    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1583353259730">
+    <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583355115708" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right" timestamp="1583355115708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583353259730" />
+    <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583355115708" />
     <state x="461" y="163" key="SettingsEditor" timestamp="1580720776595">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1580720776595" />
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1583353315924">
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2" timestamp="1583354140459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583353315924" />
+    <state x="552" y="254" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583354140459" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583354441682">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583354441682" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Maths_Codes$Area_of_Regular_Polygon.coverage" NAME="Area_of_Regular_Polygon Coverage Results" MODIFIED="1583355115700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Maths_Codes$Permutation.coverage" NAME="Permutations&amp;Combinations Coverage Results" MODIFIED="1583353170213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Maths_Codes$Distances_On_Earth.coverage" NAME="Distances_On_Earth Coverage Results" MODIFIED="1583354323717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
