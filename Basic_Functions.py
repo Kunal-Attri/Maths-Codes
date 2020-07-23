@@ -3,12 +3,12 @@ import math
 basic_prime = [3, 5, 7, 11, 13, 15, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
 
 
-def get_integer(message="Number: "):
+def get_integer(message="Number: ", wrong_message="Invalid Input"):
     try:
         i = int(input(message))
     except ValueError:
-        print('Invalid Input')
-        return get_integer(message)
+        print(wrong_message)
+        return get_integer(message, wrong_message)
     else:
         # empty_line()
         return i
