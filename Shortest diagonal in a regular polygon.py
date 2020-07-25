@@ -6,7 +6,8 @@ This code calculates the length of the shortest possible diagonal in a regular p
 """)
 
 while True:
-    no_of_sides = get_integer("Sides: ", wrong_message="No of sides of a polygon can only be an integer like 3, 4, 5, etc")
+    no_of_sides = get_integer("Sides: ", wrong_message="No of sides of a polygon can only be an integer like 3, 4, 5, "
+                                                       "etc")
     if no_of_sides > 2:
         side_length = get_float("Length: ")
         if side_length >= 0:
@@ -17,4 +18,3 @@ while True:
     else:
         print('Polygon with less than 3 sides cannot be formed')
     print('')
-    
