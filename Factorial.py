@@ -18,5 +18,5 @@ while True:
         fact = factorial(fact_num)
         print(f'Factorial: {fact}')
         f_t = time()
-        print(f'Time taken: {f_t - ini_t} s')
+        print(f'Time taken: {round(f_t - ini_t, 3)} s')
     print()

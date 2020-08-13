@@ -9,7 +9,7 @@ while True:
     no_of_sides = get_integer("Sides: ")
     if no_of_sides > 2:
         side_length = get_float("Length: ")
-        if side_length < 0:
+        if side_length > 0:
             area = no_of_sides * (side_length ** 2) / (4 * tan(pi / no_of_sides))
             print(f"Area =  {area} square units")
         else:
