@@ -1,11 +1,12 @@
 import matplotlib.pyplot as plt
+from Basic_Functions import get_float
 
 print(u"""
 A quadratic equation is in the form of ax\u00B2 + bx +c = 0. To plot, please provide a, b, c.
 """)
-a = float(input("a: "))
-b = float(input("b: "))
-c = float(input("c: "))
+a = get_float("a: ")
+b = get_float("b: ")
+c = get_float("c: ")
 
 d = (b**2 - (4 * a * c)) ** 0.5
 x1 = ((-b) + d)/(2 * a)

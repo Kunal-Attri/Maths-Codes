@@ -1,4 +1,4 @@
-from time import time_ns
+from time import time_ns, sleep
 
 from Basic_Functions import get_integer
 
@@ -17,3 +17,4 @@ while term < terms:
     term += 1
 fin = time_ns()
 print(f'Time taken = {(fin - ini) / 1000000000} seconds')
+input("Press enter to exit...")

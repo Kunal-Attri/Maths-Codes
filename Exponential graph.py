@@ -1,7 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
+from Basic_Functions import get_integer
 
-exp = int(input("Exponential graph of: "))
+exp = get_integer("Exponential graph of: ")
 start = input("Start of graph (Default = 0): ")
 end = input("End of graph (Default = 10): ")
 if start == "":

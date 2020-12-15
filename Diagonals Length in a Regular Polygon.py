@@ -1,8 +1,9 @@
 from math import ceil, cos, pi
+from Basic_Functions import get_integer, get_float
 
 while True:
-    n = int(input("No of sides: "))
-    a = float(input("Each side length: "))
+    n = get_integer("No of sides: ")
+    a = get_float("Each side length: ")
     diagonals = [a]
     d = n - 3
 
