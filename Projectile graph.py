@@ -22,13 +22,20 @@ tf = 2 * v * sin(theta) / g
 horizontal_distance = []
 vertical_distance = []
 time = []
-
-while t < tf+dt:
-    horizontal_distance.append(vx * t)
-    h = vy * t - 0.5*(g * t ** 2)
-    vertical_distance.append(h)
-    time.append(t)
-    t += dt
+if tf > 0:
+    while t < tf+dt:
+        horizontal_distance.append(vx * t)
+        h = vy * t - 0.5*(g * t ** 2)
+        vertical_distance.append(h)
+        time.append(t)
+        t += dt
+else:
+    while t > tf-dt:
+        horizontal_distance.append(vx * t)
+        h = vy * t - 0.5*(g * t ** 2)
+        vertical_distance.append(h)
+        time.append(t)
+        t -= dt
 
 print()
 print(f'Time of flight = {round(2 * v * sin(theta) / g, 3)} s')
