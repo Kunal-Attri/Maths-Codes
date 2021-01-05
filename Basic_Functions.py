@@ -3,25 +3,23 @@ import math
 basic_prime = [3, 5, 7, 11, 13, 15, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
 
 
-def get_integer(message="Number: ", wrong_message="Invalid Input"):
+def get_integer(msg="Number: ", wrng_msg="Invalid Input"):
     try:
-        i = int(input(message))
+        i = int(input(msg))
     except ValueError:
-        print(wrong_message)
-        return get_integer(message, wrong_message)
+        print(wrng_msg)
+        return get_integer(msg, wrng_msg)
     else:
-        # empty_line()
         return i
 
 
-def get_float(message="Number: "):
+def get_float(msg="Number: ", wrng_msg="Invalid Input"):
     try:
-        f = float(input(message))
+        f = float(input(msg))
     except ValueError:
-        print('Invalid Input')
-        return get_integer(message)
+        print(wrng_msg)
+        return get_float(msg, wrng_msg)
     else:
-        # empty_line()
         return f
 
 

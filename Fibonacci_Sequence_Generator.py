@@ -1,20 +1,17 @@
-from time import time_ns, sleep
-
 from Basic_Functions import get_integer
 
 terms = get_integer('No of terms: ')
-ini = time_ns()
-a = 0
-b = 1
+prev_first = 0
+prev_second = 1
 
-term = 1
-print(b)
-while term < terms:
-    c = b
-    b += a
-    a = c
-    print(b)
-    term += 1
-fin = time_ns()
-print(f'Time taken = {(fin - ini) / 1000000000} seconds')
+print(prev_first)
+print(prev_second)
+
+while 2 < terms:
+    new = prev_second
+    prev_second += prev_first
+    prev_first = new
+    print(prev_second)
+    terms -= 1
+
 input("Press enter to exit...")
