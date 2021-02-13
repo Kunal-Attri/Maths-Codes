@@ -8,9 +8,9 @@ from Basic_Functions import get_float
 # h = (u^2)sin^2(theta)/2g
 
 g = 9.8
-v = get_float("Initial velocity: ")
+v = get_float("Initial velocity(in m/s): ")
 h = 0
-theta = get_float("Projectile angle in degrees: ") * pi / 180
+theta = get_float("Projectile angle in degrees(in degrees): ") * pi / 180
 dx = 0
 dy = 0
 t = 0

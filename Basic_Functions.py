@@ -55,7 +55,7 @@ def isprime(num):
             if num % i == 0 and num / i != 1:
                 prime = False
         if prime:
-            for i in range(101, int(num / 101 + 1), 2):
+            for i in range(101, int(math.sqrt(num) + 1), 2):
                 if num % i == 0:
                     prime = False
                     break

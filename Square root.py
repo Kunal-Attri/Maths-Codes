@@ -12,5 +12,3 @@ while True:
     root = round(no ** 0.5, 4)
     print(f"Square root of {no} is {root}")
     print()
-    if input("Wanna exit?(y/n): ") == 'y':
-        break
