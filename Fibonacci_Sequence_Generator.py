@@ -8,10 +8,10 @@ print(prev_first)
 print(prev_second)
 
 while 2 < terms:
-    new = prev_second
-    prev_second += prev_first
-    prev_first = new
-    print(prev_second)
+    new = prev_second + prev_first
+    prev_first = prev_second
+    prev_second = new
+    print(new)
     terms -= 1
 
 input("Press enter to exit...")

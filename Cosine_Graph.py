@@ -5,21 +5,26 @@ from math import pi
 plt.style.use('seaborn-pastel')
 
 fig = plt.figure()
+a = pi/360
 
-ax = plt.axes(xlim=(0, 2 * pi), ylim=(-2, 2))
+ax = plt.axes(ylim=(-1.5, 1.5))
 line, = ax.plot([], [], lw=3)
 ax.grid(True)
-x = np.linspace(0, 2*pi, 360)
-y = np.cos(x)
+x = [0]
+y = np.cos(np.array(x))
 
 def init():
     line.set_data(x, y)
     return line,
 def animate(i):
     global x, y
-    y = np.cos(x - 0.01 * (-i))
+    x.append(x[-1] + a)
+    if x[-1] > 2*pi:
+        x.pop(0)
+    y = np.cos(np.array(x))
+    ax.set_xlim(x[0], x[-1])
     line.set_data(x, y)
     return line,
 
-anim = ani.FuncAnimation(fig, animate, init_func=init, frames=int(2*pi*100), interval=10/(2*pi), blit = True)
+anim = ani.FuncAnimation(fig, animate, init_func=init, frames=360, interval=1)
 plt.show()

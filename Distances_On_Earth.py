@@ -10,5 +10,5 @@ while True:
     end_lat = radians(get_float("Ending latitude: "))
     end_lon = radians(get_float("Ending longitude: "))
 
-    dist = 6371.01 * acos(sin(start_lat) * sin(end_lat) + cos(start_lat) * cos(end_lat) * cos(start_lon - end_lon))
+    dist = 6371.01*acos(sin(start_lat)*sin(end_lat)+cos(start_lat)*cos(end_lat)*cos(start_lon-end_lon))
     print(f"The distance is {dist} km.")

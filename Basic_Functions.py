@@ -1,4 +1,5 @@
 import math
+from os import system, name
 
 basic_prime = [3, 5, 7, 11, 13, 15, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
 
@@ -64,3 +65,10 @@ def isprime(num):
 
 def factorial(num):
     return math.factorial(num)
+
+
+def clear():
+    if name == 'posix':
+        system('clear')
+    if name == 'nt':
+        system('cls')
