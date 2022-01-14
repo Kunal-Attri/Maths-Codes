@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import matplotlib.animation as ani
 from math import pi
-plt.style.use('seaborn-pastel')
+#plt.style.use('seaborn-pastel')
 
 fig = plt.figure()
 a = pi/360

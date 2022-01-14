@@ -1,4 +1,14 @@
-from Basic_Functions import get_integer
+# Fibonacci Sequence generator
+
+def get_integer(msg="Number: ", wrng_msg="Invalid Input"):
+    try:
+        i = int(input(msg))
+    except ValueError:
+        print(wrng_msg)
+        return get_integer(msg, wrng_msg)
+    else:
+        return i
+
 
 terms = get_integer('No of terms: ')
 prev_first = 0

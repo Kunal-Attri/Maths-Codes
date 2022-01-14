@@ -1,7 +1,26 @@
 import matplotlib.pyplot as plt
 from math import pi, cos, sin
 import numpy as np
-from Basic_Functions import get_integer, get_float
+
+
+def get_integer(msg="Number: ", wrng_msg="Invalid Input"):
+    try:
+        i = int(input(msg))
+    except ValueError:
+        print(wrng_msg)
+        return get_integer(msg, wrng_msg)
+    else:
+        return i
+
+
+def get_float(msg="Number: ", wrng_msg="Invalid Input"):
+    try:
+        f = float(input(msg))
+    except ValueError:
+        print(wrng_msg)
+        return get_float(msg, wrng_msg)
+    else:
+        return f
 
 
 def plot_circle():
